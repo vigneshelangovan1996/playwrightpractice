@@ -22,10 +22,6 @@ test('flipkart',async({page})=>{
   await page.goto("https://flipkart.com")
 })
 
-test('flipkart',async({page})=>{
-  await page.goto("https://flipkart.com")
-})
-
 test('amazon', async({page})=>{
   await page.goto("https://amazon.in")
 })
