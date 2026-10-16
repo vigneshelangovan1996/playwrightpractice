@@ -1,7 +1,7 @@
 import{test} from '@playwright/test'
 import { LoginPage } from '../Page/LoginPage'
 import { SearchHotel } from '../Page/SearchHotel';
-test.only("log",async({page})=>{
+test("log",async({page})=>{
 
     const login = new LoginPage(page);
     await login.visitUrl()
